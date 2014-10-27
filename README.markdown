@@ -1,8 +1,10 @@
 # Go-Linenoise
 
+2014-10-27可用
+
 Go语言的[linenoise](https://github.com/antirez/linenoise)包装，附带了原来所有的C源代码
 
-My Golang binding of [linenoise](https://github.com/antirez/linenoise), with all C code inside
+My Golang binding of [linenoise](https://github.com/antirez/linenoise), with all C code inside and modified for go-callback
 
 # Linenoise
 

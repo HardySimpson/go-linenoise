@@ -48,7 +48,7 @@ typedef struct linenoiseCompletions {
 
 //typedef void(linenoiseCompletionCallback)(const char *, linenoiseCompletions *);
 //void linenoiseSetCompletionCallback(linenoiseCompletionCallback *);
-void linenoiseAddCompletion(linenoiseCompletions *, const char *);
+void linenoiseAddCompletion(void *, const char *);
 
 char *linenoise(const char *prompt);
 int linenoiseHistoryAdd(const char *line);
