@@ -6,6 +6,8 @@ Go语言的[linenoise](https://github.com/antirez/linenoise)包装，附带了�
 
 My Golang binding of [linenoise](https://github.com/antirez/linenoise), with all C code inside and modified for go-callback
 
+下载后，需要把目录名从go-linenoise手工改成linenosie，才能使用，切记切记
+
 # Linenoise
 
 或许很多人知道readline，一个命令行编辑库，Bash,Mysql,Mutt都在使用。Antirez(Redis的作者)编写了一个更加轻量级的行编辑库，只有一千多行，就实现了在命令行上移动、增删、复制、粘贴、搜索等功能，用于Redis/MongoDB/Andriod。
