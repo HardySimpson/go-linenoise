@@ -83,8 +83,12 @@ func ClearScreen() {
   return
 }
 
-func SetMultiLine(ml int) {
-  C.linenoiseSetMultiLine(C.int(ml))
+func SetMultiLine(yes bool) {
+  if yes {
+    C.linenoiseSetMultiLine(C.int(1))
+  } else {
+    C.linenoiseSetMultiLine(C.int(0))
+  }
   return
 }
 
