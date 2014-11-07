@@ -27,6 +27,6 @@ After Download, rename go-linenoise to linenoise, for install and use
 
 # Example
 
-$ cd example
-$ go build
-$ ./example
+    $ cd example
+    $ go build
+    $ ./example
